@@ -162,11 +162,29 @@ if __name__ == '__main__':
     for i in range(episode):
         episode_reward = PlayQLearningNoRender(env, agent, False, True)
         episode_rewards.append(episode_reward)
+    fig = plt.figure(1)
     plt.plot(episode_rewards)
-    plt.show()
+    #plt.show()
 
     PlayQLearningRender(env, agent, map, 20, False)
 
+    q_map = get_q_map(map.grid, agent.q)
+    v_map = get_v_map(map.grid, agent.q)
+    fig = plt.figure(2)
+    ax1 = plt.subplot(2, 1, 1)
+
+    plt.imshow(vis_q_map(q_map))
+    cmap_colors = convert2matplotlib_cmap(colors=ACTION_COLORS)
+    patches = get_patches(cmap_colors, labels=ACTION_LABELS)
+    plt.legend(handles=patches, bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+    plt.title('Q_MAP')
+
+    ax1 = plt.subplot(2, 1, 2)
+    v_image = plt.imshow(v_map, cmap='viridis')
+    plt.colorbar(v_image, fraction=0.046, pad=0.04)
+    plt.title('V_MAP')
+
+    plt.show()
 
 
 

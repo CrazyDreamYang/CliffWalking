@@ -1,7 +1,7 @@
 # CliffWalking-with-different-methods
 ## About It
 
-* CliffWalking is a classic environment of openai gym. This project create a new render function to dispaly interaction between the environment and the agent。
+* CliffWalking is a classic environment of **OPENAI gym**. This project create a new render function to dispaly interaction between the environment and the agent。
 * Additionally, I use two graph search methods to find the optimal path between the start and end points. The two methods are **A*** and **Dijkstra**.
 ## Result
 * **Dijkstra**

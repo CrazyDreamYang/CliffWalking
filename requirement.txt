@@ -1,0 +1,5 @@
+python >= 3.8.13
+pygame == 2.1.2
+numpy == 1.21.4
+gym == 0.21.0
+matplotlib == 3.5.1

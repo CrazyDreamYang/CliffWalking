@@ -39,13 +39,14 @@ python a_star_search.py
 ```bash
 python q_learning.py
 ```
+
 <div align=center>
-<img src="https://github.com/kingofYC/CliffWalking/blob/main/result/q_learning.gif"  width="30%" height="30%" > 
+<img src="https://github.com/kingofYC/CliffWalking/blob/main/result/q_learning.gif"  width="40%" height="40%" > 
 </div>
 
 >q_table
 <div align=center>
-<img src="https://github.com/kingofYC/CliffWalking/blob/main/result/q_table_q_learing.png"  width="60%" height="60%" > 
+<img src="https://github.com/kingofYC/CliffWalking/blob/main/result/q_table_q_learning.png"  width="60%" height="60%" > 
 </div>
 
 ```bash

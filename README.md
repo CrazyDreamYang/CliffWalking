@@ -45,6 +45,18 @@ python q_learning.py
 
 >q_table
 <div align=center>
-<img src="https://github.com/kingofYC/CliffWalking/blob/main/result/q_table.png"  width="60%" height="60%" > 
+<img src="https://github.com/kingofYC/CliffWalking/blob/main/result/q_table_q_learing.png"  width="60%" height="60%" > 
+</div>
+
+```bash
+python sarsa.py
+```
+<div align=center>
+<img src="https://github.com/kingofYC/CliffWalking/blob/main/result/sarsa.gif"  width="60%" height="60%" > 
+</div>
+
+>q_table
+<div align=center>
+<img src="https://github.com/kingofYC/CliffWalking/blob/main/result/q_table_sarsa.png"  width="60%" height="60%" > 
 </div>
   

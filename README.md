@@ -42,3 +42,9 @@ python q_learning.py
 <div align=center>
 <img src="https://github.com/kingofYC/CliffWalking/blob/main/result/q_learning.gif"  width="30%" height="30%" > 
 </div>
+
+>q_table
+<div align=center>
+<img src="https://github.com/kingofYC/CliffWalking/blob/main/result/q_table.png"  width="60%" height="60%" > 
+</div>
+  
